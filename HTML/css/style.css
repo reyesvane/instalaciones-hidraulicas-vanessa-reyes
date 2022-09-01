@@ -22,7 +22,8 @@ header{
     grid-area: header;
     width: 100%;
     padding: 15px;
-    background-image: url(https://www.rincondelasalud.com/sites/rincondelasalud.com/files/styles/style_1920x400/public/2022-02/ventilaci%C3%B3n%20oficina.jpeg?itok=GrWmg2ew);
+    background: rgb(7,119,143);
+    background: linear-gradient(90deg, rgba(7,119,143,1) 0%, rgba(37,163,199,0.9051995798319328) 9%, rgba(78,216,245,1) 27%, rgba(21,217,232,0.7035189075630253) 52%);  
     text-align: end;
 }
 @media (max-width:768px) {
