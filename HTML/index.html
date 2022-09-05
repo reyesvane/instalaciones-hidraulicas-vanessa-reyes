@@ -17,34 +17,37 @@
     <title>Hidráulicas Reyes</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <!-- NAVEGACION -->
         <div class="row">
             <header> 
-                <div class="header">
-                <a  href="./index.html"><img id="header__logo" src="./images/logo-hr.png" alt="logo-hidraulicas-reyes"></a>
-                </div>
-                <nav>        
-                    <ul>
-                        <li> <a class="nav__servicios" href="./pages/servicios.html">Servicios</a></li>
-                        <li> <a class="nav__sobreNosotros" href="./pages/sobrenosotros.html">Sobre Nosotros</a></li>
-                        <li> <a class="nav__contacto" href="./pages/contacto.html">Contacto</a></li> 
-                        <li> <a class="nav__galeria" href="./pages/galeria.html">Galería</a></li> 
+                
+                <nav>
+                    <div class="logo">
+                    <a  href="./index.html"><img id="logo__img" src="./images/logo-hr.png" alt="logo-hidraulicas-reyes"></a>
+                    </div>        
+                    <ul class="linklist">
+                        <li> <a class="nav__links" href="./pages/servicios.html">Servicios</a></li>
+                        <li> <a class="nav__links" href="./pages/sobrenosotros.html">Sobre Nosotros</a></li>
+                        <li> <a class="nav__links" href="./pages/contacto.html">Contacto</a></li> 
+                        <li> <a class="nav__links" href="./pages/galeria.html">Galería</a></li> 
                     </ul>
                 </nav>
             </header>           
         </div>
-        <div class="row">
         <!-- HERO -->
-            <div class="col">
-                <div class="titulo">
-                    <h1 class="animate__animated animate__zoomIn">HIDRÁULICAS REYES</h1><br>
-                    <h2 class="animate__animated animate__zoomIn">Soluciones efectivas</h2>
-                    <div id="homeVideo">        
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/exCMO_o9wOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="row">
+            <section class="hero">
+                <div class="col">
+                    <div class="titulo">
+                        <h1 class="animate__animated animate__zoomIn">HIDRÁULICAS REYES</h1><br>
+                        <h2 class="animate__animated animate__zoomIn">Soluciones efectivas</h2>
+                        <div id="homeVideo">        
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/exCMO_o9wOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
         <!-- SERVICIOS -->
         <div class="row">
@@ -54,7 +57,8 @@
                     <div class="servicios">
             </div>
         </div>
-        <div class="row">
+        <section class="nuestros-servicios">
+        <div class="row"> 
                 <div class="col-12 col-lg-6">
                     <img id="servicio1" src="./images/servicio-1.jpg" alt="Serviciohidraulico">
                     <h3>Instalaciones hidráulicas</h3>
@@ -65,11 +69,13 @@
                     <h3>Red de gas e incendio</h3>
                     <div id="textoServicio2"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat fuga dolorem nesciunt, consequuntur voluptates consequatur accusantium quos iure aut odio dolore illo modi a perspiciatis beatae quia commodi veniam ducimus?</p></div>
                 </div>
+        </section>
         </div>
         <!-- TESTIMONIOS -->
         <div class="row">
                     <h2>Testimonios</h2> 
         </div>
+        <section class="testimonios">
         <div class="row">
             <div class="col-12 col-lg-6">
                 <div class="testimonio-1">  
@@ -84,8 +90,9 @@
                     <h3>Paco L.</h3>
                     <div class="testimonios__texto"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere expedita iure debitis quas! Sint ea possimus facilis enim iste aliquam illo, similique autem dicta labore vel, dolor assumenda nesciunt! Iusto.</p></div>
                 </div>  
-            </div>
+            </div>        
         </div>
+        </section>
         <!-- FOOTER -->
         <div class="row">
             <footer class="footer">

@@ -5,3 +5,92 @@
     font-family: 'Inter', sans-serif;
     --animate-duration: 2s;
 }
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.linklist{
+    display: flex;
+    align-items: center;
+}
+.linklist li{
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 250px;
+}
+.nav__links{
+    text-decoration: none;
+    color: #162521;
+}
+/* BODY */
+body{
+    background-color: #ffffff;
+}
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: #162521
+}
+h2{
+    font-size: 50px;
+    font-weight:lighter;
+    text-align: center;
+    color: #162521;
+    margin: 25px;
+}
+h3{
+    font-size: 25px;
+    color: #162521;
+    text-align: center;
+}
+/* HERO */
+#homeVideo{
+    text-align: center;
+    margin: 50px;
+}
+/* NUESTROS SERVICIOS */
+.nuestros-servicios{
+    text-align: center;
+    padding: 50px;
+}
+img#servicio1{
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+}
+img#servicio2{
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+}
+#textoServicio1{
+    text-align: center;
+    font-size: 20px;
+    color: #162521;  
+    padding: 25px;   
+}
+#textoServicio2{
+    text-align: center;
+    font-size: 20px;
+    color: #162521;
+    padding:25px
+}
+/* TESTIMONIOS */
+.testimonios{
+    text-align: center;
+    padding: 50px;
+}
+.testimonios__texto{
+    font-size: 20px;
+    color: #162521;
+    margin: 50px;
+}
+/* FOOTER */
+.footer{
+    color: #162521;
+    text-align: center;
+}
