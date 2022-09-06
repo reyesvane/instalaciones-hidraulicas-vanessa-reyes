@@ -14,28 +14,45 @@
     <title>Servicios</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
     <!-- NAVEGACION -->
         <header>
         <div class="row">
-            <div class="header">
-            <a href="../index.html"><img id="header__logo" src="../images/logo-hr.png" alt="logo-hidraulicas-reyes"></a>
-            </div>
-            <nav>
-                <ul>
-                    <li> <a  class="nav__servicios" href="./servicios.html">Servicios</a></li>
-                    <li> <a  class="nav__sobreNosotros" href="./sobrenosotros.html">Sobre Nosotros</a></li>
-                    <li> <a  class="nav__contacto" href="./contacto.html">Contacto</a></li> 
-                    <li> <a  class="nav__galeria" href="./galeria.html">Galería</a></li>
-                </ul>
-            </nav><br>
+                <nav class="navbar navbar-expand-lg bg-light"> 
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="../index.html"><img id="logo__img" src="../images/logo-hr.png" alt="logo-hidraulicas-reyes"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Conoce más
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Sobre Nosotros</a></li>
+                              <li><a class="dropdown-item" href="#">Contacto</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Galería</a></li>
+                            </ul>
+                          </li>
+                      </div>
+                    </div>
+                  </nav>
         </header><br><br>
         </div>        
         <!-- HERO -->
-        <div class="row">
-            <section class="hero">
-                <h1>Nuestros servicios</h1>
-        </div>
+        <section class="hero">
+            <div class="row">
+                    <h1>Nuestros servicios</h1>
+            </div>
             <div class="row">
                 <table class="tabla-de-servicios">
                     <thead>
@@ -54,24 +71,26 @@
                         </tr>
                 </table>
             </div>
-            </section>
+        </section>
+        <section class="descripcion-servicios">
             <div class="row">
                     <div class="col-12 col-lg-6">
-                       <h2>Instalaciones hidráulicas</h2>   
+                    <h2>Instalaciones hidráulicas</h2>   
                             <ul id="descripcionInstalacionesHidraulicas">
                                 <li>Realizamos el estudio de tu proyecto.</li>
                                 <li>Procedemos a instalar las redes de tuberías de la edificación.</li>
                             </ul>
                     </div>
                     <div class="col-12 col-lg-6">
-                       <h2>Registro de gas</h2>
+                    <h2>Registro de gas</h2>
                             <ul id="descripcionRegistroDeGas">
                                 <li>Profesionales en instalación de tuberías de gas.</li> 
                                 <li>Detección de perdidas y verificación de ventilación.</li>
                             </ul>
                     </div>
-            </div>
-            <!-- FOOTER -->
+                </div>
+          </section>
+             <!-- FOOTER -->
         <div class="row">
             <footer class="footer">
                 <p>©2022.Todos los derechos reservados</p>
