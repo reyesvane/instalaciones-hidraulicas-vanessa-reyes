@@ -16,7 +16,7 @@ h1{
     font-weight: bold;
     font-size: 50px;
     text-align: center;
-    color: #162521
+    color: #162521;
 }
 h2{
     font-size: 50px;
@@ -24,6 +24,12 @@ h2{
     text-align: center;
     color: #162521;
     margin: 25px;
+}
+/* ANIMACIÓN CREADA */
+h2:hover{
+    transform:scale(2);
+    transition: all 0.5s ease-in;
+
 }
 h3{
     font-size: 25px;
@@ -82,7 +88,8 @@ img#servicio2{
     padding: 50px;
     color: #162521;
     text-align: center;
-    background-image: url(https://www.rincondelasalud.com/sites/rincondelasalud.com/files/styles/style_1920x400/public/2022-02/ventilaci%C3%B3n%20oficina.jpeg?itok=GrWmg2ew)
+    background: rgb(235,252,255);
+background: radial-gradient(circle, rgba(235,252,255,0.7707457983193278) 0%, rgba(225,248,255,0.804359243697479) 9%, rgba(181,235,246,0.6138830532212884) 27%, rgba(146,224,230,0.6502976190476191) 52%, rgba(106,194,200,0.6502976190476191) 69%);
 }
 /* PAGINA SERVICIOS */
 .hero{
@@ -91,10 +98,11 @@ img#servicio2{
 .tabla-de-servicios{
     border-style:hidden;
     text-align: center;
-    width: 300px;
+    width: 150px;
     height: 150px;
     margin: 20px;
     padding: 50px;
+    background: url(https://enetic.es/wp-content/uploads/2018/05/gestion-empresarial.jpg);
 }
 
 .tabla-de-servicios .titulos{
