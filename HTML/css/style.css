@@ -7,6 +7,7 @@
 }
 
 /* BODY */
+
 body{
     background-color: #ffffff;
 }
@@ -29,6 +30,7 @@ h3{
     color: #162521;
     text-align: center;
 }
+
 /* HERO */
 .titulo{
     margin: 50px;
@@ -76,8 +78,11 @@ img#servicio2{
 }
 /* FOOTER */
 .footer{
+    font-weight: bolder;
+    padding: 50px;
     color: #162521;
     text-align: center;
+    background-image: url(https://www.rincondelasalud.com/sites/rincondelasalud.com/files/styles/style_1920x400/public/2022-02/ventilaci%C3%B3n%20oficina.jpeg?itok=GrWmg2ew)
 }
 /* PAGINA SERVICIOS */
 .hero{
@@ -104,4 +109,102 @@ img#servicio2{
 }
 .descripcion-servicios li{
     list-style-type: none;
+}
+/* CSS PARA PAGINAS EXTRA HASTA PRIMERA ENTREGA PROYECTO */
+
+/* SOBRE NOSOTROS */
+#grupoDeOficina{
+    padding: 50px 550px;
+}
+#sobreNosotrosTitulo{
+    padding-left: 600px;
+    padding-right: 600px;
+}
+.sobre-nosotros .texto{
+    padding-left: 600px;
+    padding-right: 600px;
+    padding-top: 50px;
+}
+
+/* CONTACTO */
+#contactanos{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.formulario{
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+    border: 0; 
+}
+.titulo-formulario{
+    padding-left: 550px;
+    padding-right: 500px;
+}
+.nombre-apellido{
+    padding-left: 400px;
+    padding-right: 350px;
+}
+.nombre-apellido #nombre {
+    background-color: #edf7fa;
+    border-radius: 5px;
+}
+.nombre-apellido #apellido {
+    background-color: #edf7fa;
+    border-radius: 5px;
+}
+.telefono-correo{
+    padding-left: 400px;
+    padding-right: 350px;
+}
+.telefono-correo #telefono {
+    background-color: #edf7fa;
+    border-radius: 5px;
+}
+.telefono-correo #correo{
+    background-color: #edf7fa;
+    border-radius: 5px;
+}
+.formulario .servicio {
+    padding-left: 400px;
+    padding-right: 350px;
+}
+.ciudad{
+    padding-left: 400px;
+    padding-right: 350px;
+}
+.ciudad #ciudad{
+    background-color: #edf7fa;
+    border-radius: 5px;
+}
+.comentario{
+    padding-left: 400px;
+    padding-right: 350px;
+    padding-top: 50px;
+}
+.comentario .caja{
+    background-color: #edf7fa;
+    border-radius: 5px;
+}
+.enviar{
+    margin-left: 650px;
+    margin-right: 800px;
+    padding: 5px;
+    background-color: #edf7fa;
+    border-radius: 5px;
+}
+img#artesano{
+    width: 500px;
+    height: 500px;
+    padding-left: 700px;
+}
+img#santalaia{
+    width: 500px;
+    height: 500px;
+    padding-left: 700px;
+}
+img#palko92{
+    width: 500px;
+    height: 500px;
+    padding-left: 700px;
 }

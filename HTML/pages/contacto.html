@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/favicon.png"/>
+    <title>Contacto</title>
+</head>
+<body>
+    <!-- NAVEGACION -->
+    <header>
+        <div class="header">
+        <a href="../index.html"><img id="header__logo" src="../images/logo-hr.png" alt="logo-hidraulicas-reyes"></a>
+        </div>
+        <nav>
+            <ul>
+                <li> <a  class="nav__servicios" href="./servicios.html">Servicios</a></li>
+                <li> <a  class="nav__sobreNosotros" href="./sobrenosotros.html">Sobre Nosotros</a></li>
+                <li> <a  class="nav__contacto" href="./contacto.html">Contacto</a></li> 
+                <li> <a  class="nav__galeria" href="./galeria.html">Galería</a></li>
+            </ul>
+        </nav><br>
+    </header><br><br>  
+    <!-- FORMULARIO -->
+    <p><h1 id="Contactanos">¡Contáctanos!</h1></p>
+        <form  action="" method="get" enctype="multipart/form-data">
+            <fieldset class="formulario">
+                <legend class="titulo-formulario">
+                    Déjanos tu información
+                </legend>
+                <br>
+                <div class="nombre-apellido">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido">
+                </div>
+                <br>
+                <div class="telefono-correo">
+                    <label for="telefono">Teléfono</label>
+                    <input type="number" id="telefono" name="telefono">
+                    <label for="correo">Correo</label>
+                    <input type="correo" id="correo" name="correo">
+                </div>
+                <br>
+                <div class="servicio">
+                    <label for="servicio">Servicio:</label>
+                    <br><br>
+                    <div>Instalaciones Hidráulicas</div>
+                    <input id="instalacionesHidraulicas" type="checkbox" name="servicio" value="instalacioneshidraulicas">                      
+                    <br><br>
+                    <div>Red de gas</div>
+                    <input id="redDeGas" type="checkbox" name="servicio" value="reddegas">
+                </div>
+                <br>
+                <br>
+                <div class="ciudad">
+                    <label for="ciudad">Selecciona tu ciudad</label>
+                    <select name="ciudad" id="ciudad">
+                        <option value="bogota">Bogotá</option>
+                        <option value="medellin">Medellin</option>
+                        <option value="barranquilla">Barranquilla</option>
+                    </select>    
+                </div>
+                <div class="comentario">
+                    <p>Cuéntanos más sobre tu proyecto:</p>
+                    <textarea class="caja" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <br><br>
+                <div>
+                    <input class="enviar" type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+        <br><br>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>©2022.Todos los derechos reservados</p>
+        </footer>
+</body>
+</html>
