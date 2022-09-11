@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  --animate-duration: 2s;
+  background-color: #FCFEFE; }
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: #162521; }
+
+h2 {
+  font-size: 50px;
+  font-weight: lighter;
+  text-align: center;
+  color: #162521;
+  margin: 25px; }
+
+h3 {
+  font-size: 25px;
+  color: #162521;
+  text-align: center; }
+  h3:hover {
+    transform: scale(2);
+    transition: all 0.5s ease-in; }
+
+.footer {
+  font-weight: bolder;
+  padding: 50px;
+  color: #162521;
+  text-align: center;
+  background: #ebfcff;
+  background: radial-gradient(circle, rgba(235, 252, 255, 0.770746) 0%, rgba(225, 248, 255, 0.804359) 9%, rgba(181, 235, 246, 0.613883) 27%, rgba(146, 224, 230, 0.650298) 52%, rgba(106, 194, 200, 0.650298) 69%); }
+
+.titulo {
+  margin: 50px; }
+
+#homeVideo {
+  text-align: center;
+  margin: 50px; }
+
+.nuestros-servicios {
+  text-align: center;
+  padding: 50px; }
+
+.servicios__imagen {
+  width: 250px;
+  height: 250px;
+  margin: 50px; }
+
+.servicios__texto {
+  text-align: center;
+  font-size: 20px;
+  color: #162521;
+  padding: 25px; }
+
+.testimonios {
+  text-align: center;
+  padding: 50px; }
+
+.testimonios__texto {
+  font-size: 20px;
+  color: #162521;
+  margin: 50px; }

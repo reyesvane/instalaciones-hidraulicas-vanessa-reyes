@@ -1,0 +1,32 @@
+.titulo{
+    margin: 50px;
+}
+#homeVideo{
+    text-align: center;
+    margin: 50px;
+}
+.nuestros-servicios{
+    text-align: center;
+    padding: 50px;
+}
+.servicios__imagen{
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+}
+
+.servicios__texto{
+    text-align: center;
+    font-size: 20px;
+    color: $primary-font-color;  
+    padding: 25px;   
+}
+.testimonios{
+    text-align: center;
+    padding: 50px;
+}
+.testimonios__texto{
+    font-size: 20px;
+    color: $primary-font-color;
+    margin: 50px;
+}
