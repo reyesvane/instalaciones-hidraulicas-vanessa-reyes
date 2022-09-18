@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -15,75 +15,103 @@
     <title>Contacto</title>
 </head>
 <body>
+    <div class="container-fluid">
     <!-- NAVEGACION -->
     <header>
-        <div class="header">
-        <a href="../index.html"><img id="header__logo" src="../images/logo-hr.png" alt="logo-hidraulicas-reyes"></a>
+        <div class="row">
+                <nav class="navbar navbar-expand-lg bg-light"> 
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="../index.html"><img id="logo__img" src="../images/logo-hr.png" alt="logo-hidraulicas-reyes"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Conoce más
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="./sobrenosotros.html">Sobre Nosotros</a></li>
+                              <li><a class="dropdown-item" href="./contacto.html">Contacto</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="./galeria.html">Galería</a></li>
+                            </ul>
+                          </li>
+                      </div>
+                    </div>
+                </nav>
         </div>
-        <nav>
-            <ul>
-                <li> <a  class="nav__servicios" href="./servicios.html">Servicios</a></li>
-                <li> <a  class="nav__sobreNosotros" href="./sobrenosotros.html">Sobre Nosotros</a></li>
-                <li> <a  class="nav__contacto" href="./contacto.html">Contacto</a></li> 
-                <li> <a  class="nav__galeria" href="./galeria.html">Galería</a></li>
-            </ul>
-        </nav><br>
-    </header><br><br>  
+      </header><br><br>
+
     <!-- FORMULARIO -->
-    <p><h1 id="Contactanos">¡Contáctanos!</h1></p>
-        <form  action="" method="get" enctype="multipart/form-data">
-            <fieldset class="formulario">
-                <legend class="titulo-formulario">
-                    Déjanos tu información
-                </legend>
-                <br>
-                <div class="nombre-apellido">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" name="nombre">
-                    <label for="apellido">Apellido</label>
-                    <input type="text" id="apellido" name="apellido">
-                </div>
-                <br>
-                <div class="telefono-correo">
-                    <label for="telefono">Teléfono</label>
-                    <input type="number" id="telefono" name="telefono">
-                    <label for="correo">Correo</label>
-                    <input type="correo" id="correo" name="correo">
-                </div>
-                <br>
-                <div class="servicio">
-                    <label for="servicio">Servicio:</label>
-                    <br><br>
-                    <div>Instalaciones Hidráulicas</div>
-                    <input id="instalacionesHidraulicas" type="checkbox" name="servicio" value="instalacioneshidraulicas">                      
-                    <br><br>
-                    <div>Red de gas</div>
-                    <input id="redDeGas" type="checkbox" name="servicio" value="reddegas">
-                </div>
-                <br>
-                <br>
-                <div class="ciudad">
-                    <label for="ciudad">Selecciona tu ciudad</label>
-                    <select name="ciudad" id="ciudad">
-                        <option value="bogota">Bogotá</option>
-                        <option value="medellin">Medellin</option>
-                        <option value="barranquilla">Barranquilla</option>
-                    </select>    
-                </div>
-                <div class="comentario">
-                    <p>Cuéntanos más sobre tu proyecto:</p>
-                    <textarea class="caja" name="" id="" cols="30" rows="10"></textarea>
-                </div>
-                <br><br>
-                <div>
-                    <input class="enviar" type="submit" value="Enviar">
-                </div>
-            </fieldset>
-        </form>
-        <br><br>
+        <section class="form">
+            <div class="row">
+                <p><h1 id="Contactanos">¡Contáctanos!</h1></p>
+            </div>
+            <div class="row">
+                <form  action="" method="get" enctype="multipart/form-data">
+                    <fieldset class="formulario">
+                        <legend class="titulo-formulario">
+                            Déjanos tu información
+                        </legend>
+                        <br>
+                        <div class="nombre-apellido">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" id="apellido" name="apellido">
+                        </div>
+                        <br>
+                        <div class="telefono-correo">
+                            <label for="telefono">Teléfono</label>
+                            <input type="number" id="telefono" name="telefono">
+                            <label for="correo">Correo</label>
+                            <input type="correo" id="correo" name="correo">
+                        </div>
+                        <br>
+                        <div class="servicio">
+                            <label for="servicio">Servicio:</label>
+                            <br><br>
+                            <div>Instalaciones Hidráulicas</div>
+                            <input id="instalacionesHidraulicas" type="checkbox" name="servicio" value="instalacioneshidraulicas">                      
+                            <br><br>
+                            <div>Red de gas</div>
+                            <input id="redDeGas" type="checkbox" name="servicio" value="reddegas">
+                        </div>
+                        <br>
+                        <br>
+                        <div class="ciudad">
+                            <label for="ciudad">Selecciona tu ciudad</label>
+                            <select name="ciudad" id="ciudad">
+                                <option value="bogota">Bogotá</option>
+                                <option value="medellin">Medellin</option>
+                                <option value="barranquilla">Barranquilla</option>
+                            </select>    
+                        </div>
+                        <div class="comentario">
+                            <p>Cuéntanos más sobre tu proyecto:</p>
+                            <textarea class="caja" name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <br><br>
+                        <div>
+                            <input class="enviar" type="submit" value="Enviar">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
     <!-- FOOTER -->
-    <footer class="footer">
-        <p>©2022.Todos los derechos reservados</p>
-        </footer>
+          <div class="row">
+              <footer class="footer">
+                  <p class="footer__texto">©2022.Todos los derechos reservados</p>
+              </footer>
+          </div>
 </body>
 </html>

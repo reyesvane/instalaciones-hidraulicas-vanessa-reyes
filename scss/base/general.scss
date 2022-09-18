@@ -3,24 +3,24 @@ body{
       padding: 0;
       font-family: 'Inter', sans-serif;
       --animate-duration: 2s;    
-      background-color: $primary-background-color;
+      background-color: map-get($colors, primary-background);
 }
 h1{
     font-weight: bold;
     font-size: 50px;
     text-align: center;
-    color: $primary-font-color;
+    color: map-get($colors, primary-font);
 }
 h2{
     font-size: 50px;
     font-weight:lighter;
     text-align: center;
-    color: $primary-font-color;
+    color: map-get($colors, primary-font);
     margin: 25px;
 }
 h3{
     font-size: 25px;
-    color: $primary-font-color;
+    color: map-get($colors, primary-font);
     text-align: center;
     &:hover{
         transform:scale(2);

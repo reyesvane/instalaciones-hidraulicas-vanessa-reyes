@@ -1,0 +1,12 @@
+// EXTEND
+img#artesano{
+    width: 500px;
+    height: 500px;
+    padding-left: 100px;
+}
+img#santalaia{
+    @extend img#artesano ;
+}
+img#palko92{
+    @extend img#artesano ;
+}

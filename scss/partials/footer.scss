@@ -1,8 +1,14 @@
+@mixin text-font ($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+}
 .footer{
-    font-weight: bolder;
+    @include text-font(20px, bolder);
     padding: 50px;
-    color: $primary-font-color;
+    color: map-get($colors, primary-font);
     text-align: center;
     background: rgb(235,252,255);
-    background: radial-gradient(circle, rgba(235,252,255,0.7707457983193278) 0%, rgba(225,248,255,0.804359243697479) 9%, rgba(181,235,246,0.6138830532212884) 27%, rgba(146,224,230,0.6502976190476191) 52%, rgba(106,194,200,0.6502976190476191) 69%);
+    background: rgb(235,240,255);
+    background: rgb(235,240,255);
+    background: radial-gradient(circle, rgba(235,240,255,0.7707457983193278) 0%, rgba(227,231,255,0.804359243697479) 13%, rgba(162,193,238,0.6502976190476191) 39%, rgba(160,194,237,0.6502976190476191) 69%, rgba(171,202,235,0.6138830532212884) 92%);
 }

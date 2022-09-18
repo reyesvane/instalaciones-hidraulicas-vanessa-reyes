@@ -1,9 +1,14 @@
+// MIXIN Y EXTEND
+@mixin text-font ($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+}
 .titulo{
     margin: 50px;
 }
 #homeVideo{
+    @extend .titulo;
     text-align: center;
-    margin: 50px;
 }
 .nuestros-servicios{
     text-align: center;
@@ -17,8 +22,8 @@
 
 .servicios__texto{
     text-align: center;
-    font-size: 20px;
-    color: $primary-font-color;  
+    @include text-font (20px, light);
+    color: map-get($colors , primary-font);  
     padding: 25px;   
 }
 .testimonios{
@@ -26,7 +31,7 @@
     padding: 50px;
 }
 .testimonios__texto{
-    font-size: 20px;
-    color: $primary-font-color;
+    @include text-font(20px, light);
+    color: map-get($colors, primary-font);
     margin: 50px;
 }

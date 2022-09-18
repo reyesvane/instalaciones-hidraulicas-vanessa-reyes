@@ -1,0 +1,22 @@
+.tabla-de-servicios{
+    border-style:hidden;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    padding: 50px;
+
+    .titulos{
+    background-color: map-get($colors, primary-background);
+    @include text-font(30px, bold);   
+    }
+}
+.descripcion-servicios{
+    text-align: center;
+    padding: 50px;
+    margin: 50px; 
+
+    li{
+    list-style-type: none;        
+    }
+}
