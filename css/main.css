@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
-  --animate-duration: 2s;
+  --animate-duration: 0.5s;
   background-color: #fcfefe; }
 
 h1 {
@@ -23,8 +23,15 @@ h3 {
   color: #162521;
   text-align: center; }
   h3:hover {
-    transform: scale(2);
+    transform: scale(1.5);
     transition: all 0.5s ease-in; }
+
+h5 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  margin: 25px; }
 
 .hero {
   text-align: center; }
@@ -48,7 +55,8 @@ h3 {
 
 .nuestros-servicios {
   text-align: center;
-  padding: 50px; }
+  padding-left: 150px;
+  padding-right: 150px; }
 
 .servicios__imagen {
   width: 250px;
@@ -93,18 +101,12 @@ h3 {
 
 .sobre-nosotros .contenedor {
   display: flex; }
-  .sobre-nosotros .contenedor #grupoDeOficina {
-    width: 200px;
-    height: 500;
-    margin: 150px;
-    flex-direction: column; }
   .sobre-nosotros .contenedor #sobreNosotrosTitulo {
     width: 500px;
-    height: 250px;
+    height: auto;
     margin: auto;
     flex-direction: column; }
   .sobre-nosotros .contenedor .texto {
-    margin: auto;
     flex-direction: column; }
 
 #contactanos {
@@ -113,26 +115,16 @@ h3 {
 
 .formulario {
   padding-top: 50px;
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: auto;
+  padding-right: auto;
   border: 0; }
-  .formulario .titulo-formulario {
-    padding-left: 550px;
-    padding-right: 500px; }
-  .formulario .nombre-apellido, .formulario .telefono-correo, .formulario .servicio, .formulario .ciudad, .formulario .comentario {
-    padding-left: 400px;
-    padding-right: 350px; }
-    .formulario .nombre-apellido #nombre, .formulario .telefono-correo #nombre, .formulario .servicio #nombre, .formulario .ciudad #nombre, .formulario .comentario #nombre, .formulario .nombre-apellido #apellido, .formulario .telefono-correo #apellido, .formulario .servicio #apellido, .formulario .ciudad #apellido, .formulario .comentario #apellido, .formulario .telefono-correo #telefono, .formulario .telefono-correo #correo, .formulario .ciudad #ciudad, .formulario .nombre-apellido .comentario .caja, .formulario .comentario .nombre-apellido .caja, .formulario .comentario .caja, .formulario .nombre-apellido .enviar, .formulario .telefono-correo .enviar, .formulario .servicio .enviar, .formulario .ciudad .enviar, .formulario .comentario .enviar {
-      background-color: #fcfefe;
-      border-radius: 5px; }
-  .formulario .comentario {
-    padding-top: 50px; }
-  .formulario .enviar {
-    margin-left: 650px;
-    margin-right: 800px;
-    padding: 5px; }
 
-img#artesano, img#santalaia, img#palko92 {
+.galeria {
   width: 500px;
   height: 500px;
-  padding-left: 100px; }
+  margin: auto; }
+
+img#artesano, img#santalaia, img#palko92 {
+  width: 150px;
+  height: 500px;
+  background-color: #fcfefe; }

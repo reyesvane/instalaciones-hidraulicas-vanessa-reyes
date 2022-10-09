@@ -1,8 +1,17 @@
-// EXTEND
-img#artesano{
+
+$carousel-indicator-width:           150px;
+$carousel-indicator-height:          500px;
+$carousel-indicator-active-bg:       #fcfefe;
+
+.galeria{
     width: 500px;
     height: 500px;
-    padding-left: 100px;
+    margin: auto;
+}
+img#artesano{
+    width: $carousel-indicator-width;
+    height: $carousel-indicator-height;
+    background-color: $carousel-indicator-active-bg;
 }
 img#santalaia{
     @extend img#artesano ;

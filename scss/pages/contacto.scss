@@ -1,62 +1,10 @@
-// EXTEND
 #contactanos{
     padding-bottom: 100px;
     padding-top: 100px;
 }
-
 .formulario{
     padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: auto;
+    padding-right: auto;
     border: 0; 
-    .titulo-formulario{
-        padding-left: 550px;
-        padding-right: 500px;
-    }
-    .nombre-apellido{
-        padding-left: 400px;
-        padding-right: 350px; 
-        #nombre {
-        background-color: map-get($colors, primary-background);
-        border-radius: 5px;
-        }
-        #apellido {
-        @extend #nombre ;
-        }
-    }
-    .telefono-correo{
-        @extend .nombre-apellido ;
-        #telefono {
-        @extend #nombre ;
-        }
-        #correo{
-        @extend #nombre ;
-        }
-    }
-
-    .servicio {
-        @extend .nombre-apellido ;
-    }
-    .ciudad{
-        @extend .nombre-apellido ;
-        #ciudad{
-        @extend #nombre ;
-        }
-    }
-
-    .comentario{
-        @extend .nombre-apellido ;
-        padding-top: 50px;
-        .caja{
-        @extend #nombre ;
-        }
-    }
-     
-    .enviar{
-        margin-left: 650px;
-        margin-right: 800px;
-        padding: 5px;
-        @extend #nombre ;
-    }
 }
-

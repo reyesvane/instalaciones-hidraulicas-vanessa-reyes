@@ -1,20 +1,13 @@
 .sobre-nosotros{
     .contenedor{
         display: flex;   
-            #grupoDeOficina{
-                width: 200px;
-                height: 500;
-                margin: 150px;
-                flex-direction: column;
-            }  
             #sobreNosotrosTitulo{
                 width: 500px;
-                height: 250px;
+                height: auto;
                 margin: auto;
                 flex-direction: column;
             }
             .texto{   
-                margin: auto;
                 flex-direction: column;
             }
     }
